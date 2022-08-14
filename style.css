@@ -11,6 +11,9 @@ a {
     color: inherit;
 }
 
+
+/*keyframes*/
+
 @keyframes fade-down {
     0% {
         opacity: 0;
@@ -20,6 +23,28 @@ a {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+/*untility*/
+
+.u-bold {
+    font-weight: 500;
+}
+
+.u-yellow {
+    color: #ffd600;
 }
 
 
@@ -71,14 +96,64 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     color: black;
+    letter-spacing: 0.5px;
     padding: 10px 20px;
     border-radius: 5000px;
     transition: all 0.3s;
-    animation: fade-down 0.5s 0.4s backwards;
 }
 
 .btn:hover {
     transform: scale(1.15);
 }
 
-.btn--contact {}
+.btn--contact {
+    animation: fade-down 0.5s 0.4s backwards;
+}
+
+
+/*---Main---*/
+
+.main {
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 90px;
+    padding: 0 25px;
+}
+
+
+/*---intro---*/
+
+.intro {
+    padding: 125px;
+    animation: fade-up 0.5s;
+}
+
+.first-heading {
+    font-size: 48px;
+    font-weight: 600;
+    opacity: 0.94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 35px;
+    margin-top: -8px;
+    margin-left: 3px;
+}
+
+.text {
+    font-size: 40px;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-top: 11px;
+    line-height: 1.1;
+}
+
+.text--second {
+    display: block;
+    animation: fade-up 0.6s 0.2s backwards;
+}
