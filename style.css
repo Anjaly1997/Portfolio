@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
 /*---intro---*/
 
 .intro {
-    padding: 125px;
+    padding: 75px;
     animation: fade-up 0.5s;
 }
 
