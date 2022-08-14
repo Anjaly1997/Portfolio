@@ -131,6 +131,17 @@ body::-webkit-scrollbar {
     animation: fade-down 0.5s 0.4s backwards;
 }
 
+.btn--download {
+    padding: 16px 32px;
+    font-size: 16px;
+    position: fixed;
+    bottom: 27px;
+    z-index: 100;
+    left: calc(50% - 96px);
+    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.45);
+    animation: fade-up 0.5s 0.4s backwards;
+}
+
 
 /*---Main---*/
 

@@ -47,7 +47,7 @@ filtersEl.addEventListener('click', e => {
         projectEl6.style.opacity = '1';
         projectEl6.style.transform = 'scale(1)';
 
-    } else if (filterText === 'Front-end') {
+    } else if (filterText === 'Front end') {
         projectEl1.style.opacity = 0;
         projectEl1.style.transform = 'scale(0)';
         projectEl2.style.opacity = 0;
@@ -63,7 +63,7 @@ filtersEl.addEventListener('click', e => {
 
 
 
-    } else if (filterText === 'Back-end') {
+    } else if (filterText === 'Back end') {
         projectEl1.style.opacity = '0';
         projectEl1.style.transform = 'scale(0)';
         projectEl2.style.opacity = '0';
@@ -78,7 +78,7 @@ filtersEl.addEventListener('click', e => {
         projectEl6.style.transform = 'translate(-325px, -501px)';
         projectEl6.style.opacity = '1';
 
-    } else if (filterText === 'Full-stack') {
+    } else if (filterText === 'Full stack') {
         projectEl3.style.opacity = '0';
         projectEl3.style.transform = 'scale(0)';
         projectEl4.style.opacity = '0';
